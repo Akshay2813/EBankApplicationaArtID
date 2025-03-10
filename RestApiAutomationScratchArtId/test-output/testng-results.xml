@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-17T20:45:31 IST" name="Suite" finished-at="2023-11-17T20:45:37 IST" duration-ms="5924">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.TestRunner@18d87d80]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-17T20:45:31 IST" name="Test01" finished-at="2023-11-17T20:45:37 IST" duration-ms="5924">
+      <class name="TestRunnerPackage.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunnerPackage.TestRunner@18d87d80]" started-at="2023-11-17T20:45:31 IST" name="setUpClass" finished-at="2023-11-17T20:45:32 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerPackage.TestRunner@18d87d80]" started-at="2023-11-17T20:45:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-17T20:45:37 IST" duration-ms="4924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GET API Testing Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GET API Testing]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunnerPackage.TestRunner@18d87d80]" started-at="2023-11-17T20:45:37 IST" name="tearDownClass" finished-at="2023-11-17T20:45:37 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunnerPackage.TestRunner -->
+    </test> <!-- Test01 -->
+  </suite> <!-- Suite -->
+</testng-results>
